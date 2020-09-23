@@ -9,8 +9,8 @@ This resipotory contains homeworks.
 ## Useful links
 
 [![Stepik](https://img.shields.io/badge/DLS-Stepik-success)](https://stepik.org/course/83344/syllabus)
-[![Slack](https://img.shields.io/badge/Catalyst-slack-success)](https://join.slack.com/t/catalyst-team-core/shared_invite/zt-d9miirnn-z86oKDzFMKlMG4fgFdZafw)]
-[![Github-repo](https://img.shields.io/badge/Catalyst-slack-success)](https://github.com/catalyst-team/dl-course)]
+[![Slack](https://img.shields.io/badge/Catalyst-slack-success)](https://join.slack.com/t/catalyst-team-core/shared_invite/zt-d9miirnn-z86oKDzFMKlMG4fgFdZafw)
+[![Github-repo](https://img.shields.io/badge/Github-repo-slack-success)](https://github.com/catalyst-team/dl-course)
 
 ## Syllabus
 
