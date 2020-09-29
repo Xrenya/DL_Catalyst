@@ -197,3 +197,6 @@ class Tensor:
 
     def item(self):
         return self.data.flatten()[0].data
+
+    def relu(self):
+        return np.maximum(0, self.data)
