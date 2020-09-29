@@ -27,7 +27,9 @@ class Linear(Module):
         super().__init__()
         self.in_features = in_features
         self.out_features = out_features
-        self.weight, self.bias = WeightInitializer().initialize(out_features, in_features, bias)
+        self.bias = bias
+        self.weight = WeightInitializer(self.out_features, self.in_features, self.bias).initialize()[0]
+        self.bias = WeightInitializer(self.out_features, self.in_features, self.bias).initialize()[1]
 
     def forward(self, input):
         """Y = W * x + b"""
@@ -56,7 +58,7 @@ class ReLU(Module):
     """The most simple and popular activation function"""
     def forward(self, inp):
         # Create ReLU Module
-        return inp.relu()
+        return Value.relu(inp)
 
 
 class CrossEntropyLoss(Module):
